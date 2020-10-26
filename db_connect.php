@@ -4,8 +4,8 @@
 	$db = "(DESCRIPTION =(ADDRESS =(PROTOCOL = TCP)(HOST =203.249.87.162)(PORT = 1521))(CONNECT_DATA = (SID = orcl)))";
     //Env("ORACLE_HOME=/oracle/app/oracle/product/10.2.0");
 	//DB 연결
-	$id = "B489077";
-	$pw = "wlsghdyd";
+	$id = "아이디입력";
+	$pw = "비번입력";
 	$conn = OCILogon($id,$pw,$db);
 	//에러 체크
 	if($conn == false) {
